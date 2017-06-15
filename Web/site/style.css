@@ -1,0 +1,357 @@
+body {
+    margin: 0px;
+    font-family: "Helvetica",sans-serif;
+    background-color: #def;
+}
+.center-wrapper {
+    max-width: 900px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.subcontainer {
+    margin: 20px auto;
+    border: 0px solid #888;
+    max-width: 1000px;
+    background-color: white;
+}
+.topimg {
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.topimg p {
+    z-index: 50;
+    position: absolute;
+    left: 100px;
+}
+button {
+    border: none;
+    background-color: none;
+    padding: 0;
+}
+a {
+    text-decoration: underline;
+    color: black;
+}
+a:hover {
+    color: #666;
+}
+
+/* TOP MENU */
+#topmenu {
+    position: fixed;
+    width: 100%;
+    background-color: #aaf;
+    padding: 14px;
+    padding-left: 10%;
+    z-index: 100;
+    top: 0px;
+}
+#topmenu a {
+    text-decoration: none;
+    color: black;
+    padding: 14px;
+}
+#topmenu a:hover {
+    background-color: #ddf;
+}
+
+/* HOME */
+#home {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+#home img {
+    position: absolute;
+    z-index: -50;
+    opacity: 0.85;
+    height: 700px;
+}
+#home div {
+    position: absolute;
+    top: 250px;
+    z-index: -49;
+    text-align: center;
+    width: 100%;
+}
+#home h1 {
+    margin: 5px;
+}
+#home p {
+    font-size: 20px;
+}
+
+/* INTRO */
+#intro {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+/* ACTORS */
+#actors {
+    margin-top: 20px;
+}
+.actor-container {
+    display: inline-block;
+    height: 300px;
+    width: 22.7%;
+    vertical-align: top;
+    background-color: white;
+    margin: 1%;
+    text-align: center;
+}
+.actor-title {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.actor-description {
+    display: none;
+    padding: 30px;
+}
+
+/* DEBATS */
+#debats {
+    margin: 40px 0px 40px 0px;
+}
+.subdeb {
+    padding: 3px 20px 3px 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.subdeb0 {
+    max-width: 700px;
+    margin: auto;
+    display: block;
+    background-color: #ccc;
+}
+.subdeb1 {
+    background-color: #aaa;
+}
+.subdeb2 {
+    background-color: #999;
+}
+.subdeb p {
+    margin: 10px 0px 10px 0px;
+    font-weight: bold;
+}
+
+#debats button {
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+#debats button p {
+    font-size: 20px;
+    font-weight: normal;
+}
+#debats button p:hover {
+    cursor: pointer;
+    color: white;
+}
+.modal {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 200px;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+}
+.modal-content {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/* FRISE */
+#frise {
+    text-align: center;
+    background-color: white;
+}
+#frise h4 {
+    margin: 0;
+    padding: 0;
+}
+#frise h2 {
+    margin: 0;
+    padding: 0;
+}
+#frise h2:hover {
+    color: #666;
+    cursor: pointer;
+}
+#frise p {
+    margin: 8px;
+    padding: 0;
+}
+.event {
+    display: none;
+}
+
+/* POUR ALLER PLUS LOIN */
+#papl h2 {
+    display: inline-block;
+    width: 29%;
+    margin: 1%;
+    background-color: white;
+    padding: 1%;
+    font-size: 16px;
+    text-align: center;
+}
+#papl h2:hover {
+    background-color: #fee;
+}
+#papl h1 {
+    text-align: center;
+}
+
+/* INTERVIEW */
+#interview h3 {
+    text-align: right;
+    padding-left: 150px;
+}
+#interview p {
+    padding-right: 100px;
+}
+#interview {
+    margin-top: 80px;
+}
+.subint {
+    display: none;
+}
+#interview .center-wrapper img {
+    margin-right: 20px;
+    width: 30px;
+}
+#interview .center-wrapper img:hover {
+    cursor: pointer;
+}
+#interview h1 {
+    font-size: 25px;
+}
+
+/* LEXIQUE */
+#lexique {
+    margin-top: 80px;
+}
+#lexique p {
+    margin-top: 0;
+    text-align: justify;
+}
+#lexique h2 {
+    margin-bottom: 0;
+}
+#lexique .center-wrapper {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/* QUI SOMMES-NOUS */
+#nous {
+    margin-top: 80px;
+}
+#nous a {
+    text-decoration: underline;
+    color: black;
+}
+#nous a:hover {
+    color: #666;
+}
+.people {
+    display: inline-flex;
+    width: 49%;
+    height: 180px;
+    margin-bottom: 20px;
+}
+.people img {
+    width: 180px;
+    display: flex;
+    margin-right: 10px;
+}
+.people h3 {
+    margin: 0px;
+}
+.people h5 {
+    margin: 0px;
+}
+.people p {
+    margin: 0px;
+}
+
+/* MENTIONS */
+#mentions {
+    margin-top: 80px;
+}
+#mentions a {
+    text-decoration: underline;
+    color: black;
+}
+#mentions a:hover {
+    color: #666;
+}
+
+/* LIENS */
+#liens {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#liens a {
+    text-decoration: underline;
+    color: black;
+}
+#liens a:hover {
+    color: #666;
+}
+#liens table {
+    margin: 50px;
+}
+#liens th {
+    font-weight: normal;
+    padding: 5px;
+}
+#liens th:nth-child(even) {
+    text-align: left;
+}
+#liens th:nth-child(odd) {
+    text-align: right;
+    width: 250px;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background-color: #aaf;
+    padding: 14px;
+    z-index: 100;
+    padding-left: 10%;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    padding: 14px;
+}
+footer a:hover {
+    background-color: #ddf;
+}
+
+
+

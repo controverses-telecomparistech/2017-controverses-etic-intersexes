@@ -1,0 +1,476 @@
+<!DOCTYPE.html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        shown=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+        function subint(n){
+            var subints=document.getElementsByClassName("subint");
+            var imgs=document.getElementsByTagName("img");
+            if (shown[n]==0){
+                subints[n].style.display="block";
+                imgs[n+1].src="toggle-up.png";
+                shown[n]=1;
+            }
+            else {
+                subints[n].style.display="none";
+                imgs[n+1].src="toggle-down.png";
+                shown[n]=0;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="topmenu">
+        <a href="index.html#home">Accueil</a>
+        <a href="index.html#intro">Introduction</a>
+        <a href="index.html#actors">Acteurs</a>
+        <a href="index.html#debats">Débats</a>
+        <a href="index.html#frise">Historique</a>
+        <a href="index.html#papl">Pour aller plus loin</a>
+    </div>
+
+    <div class="subcontainer" id="interview">
+        <div class="topimg">
+            <img src="benjamin.jpg">
+            <p style="color: black; font-size: 40px; top: 20px; left: 30px; font-weight: bold">
+                Benjamin Moron-Puech: "l'avantage<br>de faire l'opération quand il ne<br>peut pas s'exprimer, c'est qu'on<br>a pas besoin de le consulter"
+            </p>
+        </div>
+        <div class="center-wrapper">
+            <h1><img src="toggle-down.png" onclick="subint(0);">Nombre de personnes intersexes</h1>
+            <div class="subint">
+                <h3>
+                    Selon les associations, les médecins, il n’y a pas du tout les mêmes chiffres sur le nombre de personnes qui naissent intersexes et qu’ils faut opérer à la naissance. Combien y a-t-il de personnes intersexes qui naissent chaque année en France?
+                </h3>
+                <p>
+                    Ça dépend de ce qu’on appelle un intersexe, si vous êtes dans une logique binaire, les intersexes sont une exception donc il faut que l’exception soit minorisée, il ne faut pas qu’il y en ait beaucoup, donc vous allez avoir une approche extrêmement large de la masculinité et de la féminité qui va laisser peu de place aux intersexes. Si vous êtes dans une approche plus ouverte, vous allez faire rentrer plus de monde dans les intersexes parce qu’il n’y a pas de raison de diminuer le chiffre.<br><br>Il n’y a pas de vrais chiffres et de mauvais chiffres, tout dépend de ce qu’on appelle intersexe et après éventuellement on peut discuter: doit-on par exemple compter les hypospades? Souvent les gens ne parlent pas des mêmes catégories, d’ailleurs ils n'utilisent pas les mêmes mots.
+                </p>
+                <h3>
+                    À un membre d’une association qui s’interrogeait sur l’absence d’une autre catégorie de sexe (autre que masculin/féminin), la directrice répond que l’INSEE ne prenait pas en compte les personnes qui naissaient intersexes parce que c’est une minorité: c’est un désir de leur part de sous-évaluer le nombre d’intersexes pour ne pas avoir à les prendre en compte?
+                </h3>
+                <p>
+                    Ce qui était intéressant avec cette réponse aussi, c’est qu’en vérité il y a un texte qui dit que l’on compte que les hommes et les femmes, et ils n'ont pas pris la peine de se référer à ce texte, il ont sorti des règles plus ou moins internes, pour essayer de justifier le fait qu’ils avaient pas à les compter parce qu’ils étaient peu nombreux mais en fait ils savaient même pas combien ils étaient donc leur réponse ne tenait pas la route. À partir de quand est-ce qu’on est pas assez nombreux? comment vous faites quand vous avez une commune avec 500 habitants, vous arrêtez de compter les gens?
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(1);">L’intersexuation dans la loi</h1>
+            <div class="subint">
+                <h3>
+                    Qu’est ce que l’intersexuation dans la loi ?
+                </h3>
+                <p>
+                    La loi n’utilise pas le terme intersexuation. Je crois qu’il y avait une décision de justice qui parlait de personne intersexuée mais on sait pas trop ce qu’il y a derrière. En revanche la "loi" — c’est ce que la cour de cassation prétend —  indique qu’il n’y a que deux sexes, et donc on est dans la logique de la circulaire de 2011 sur l’état civil qui encourage les parents à réaliser des traitements appropriés pour permettre d’inscrire l’enfant dans les deux sexes. Dans cette logique là ce que j’appelle intersexuation — et ce que les médecins appellent DSD (Disorders of Sex Development), ADS (Anomalies du développement sexuel) ou éventuellement VDS (Variations du développement sexuel) — sont considérées comme des pathologies pour lesquelles il faut pratiquer des "traitements appropriés" (c’est l’expression utilisée par la circulaire du 28 octobre 2011 dans son paragraphe 55).
+                </p>
+                <h3>
+                    Vous avez travaillé avec Gaëtan Schmitt qui essaie de faire reconnaitre le sexe neutre à l’état civil, est ce que reconnaitre le sexe neutre, ce serait ne plus traiter l’intersexuation comme une pathologie?
+                </h3>
+                <p>
+                    Je pense que ça peut y contribuer mais ce n’est pas nécessairement lié. Il est vrai que si je vous dis « je reconnais que telle chose existe », en soit la reconnaissance peut inclure qu’il n’est pas malade mais d’un autre côté, on reconnaît bien qu’il y a des personnes qui sont handicapées, et qui ont certains droits parce qu’elles sont malades ou déficientes. Donc je ne suis pas sûr que ce soit nécessairement lié. Et puis, on voit que même dans les pays où ils ont fait un effort dans la reconnaissance des personnes intersexuées, comme en Allemagne, les opérations ne s’arrêtent pas. Il y a une étude d’une collègue allemande, Ulrike Klöppel, qui a démontré que les médecins avaient juste transformé la manière de côter les actes médicaux mais que le nombre d’opérations d’assignation sexuée était stable.
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(2);">Application effective de la loi allemande sur les opérations précoces</h1>
+            <div class="subint">
+                <h3>
+                    Les lois ne sont donc pas forcément respectées dans le domaine médical?
+                </h3>
+                <p>
+                    Quand on fait des actes médicaux, comme c’est remboursé par l’État il faut rentrer dans des cases et donc je crois que la législation allemande avait fermé certaines cases mais il en existait d’autres qui étaient encore ouvertes donc ils sont rentrés dedans. Alors même qu’il y a eu une loi disant, « on les reconnait un petit peu puisqu’on permet de ne rien inscrire, avec quelques conséquences sur la matière médicale sur la question de la cotation que j’évoquais tout à l’heure, les médecins ont quand même maintenu le même niveau d’opération. Donc le fait de reconnaître les personnes intersexuées soit par le silence, soit par une mention positive, n’implique pas nécessairement un changement de politique de santé.<br>Ce sont des ministères différents aussi si vous voulez, le ministère de la justice pour l’état civil, et le ministère de la santé pour les opérations.
+                </p>
+                <h3>
+                    Est-ce que les médecins considèrent que ce qui leur a été appris en urologie pendant leurs études est encore valable?
+                </h3>
+                <p>
+                    Ils sont pas forcément au courant des changements, je pense que le moyen le plus efficace pour que ça change, c’est qu’un médecin soit condamné pour avoir opéré un intersexe et que le juge dise : « C’est une mutilation ». Là ils vont arrêter, non pas parce qu’ils sont convaincus mais parce qu’ils vont craindre la prison, et parce que leurs primes d’assurances vont augmenter de manière considérable.<br>
+                    Ça s’est vu dans l’affaire des enfants qui naissaient handicapés (l’affaire dite Perruche). Là il y avait des médecins qui avaient été condamnés parce qu’ils n’avaient pas identifié qu’un enfant était né avec une “malformation”, et les médecins ont été condamnés à des sommes astronomiques, ils ont fait tout un bruit médiatique et la loi a fini par changer. Avec cette décision, les médecins ont pris conscience qu’il y avait un danger, qu’il fallait qu’ils fassent bien leur travail, parce que leurs primes d’assurance ont été multipliées par deux suite à la décision de la Cour de cassation dans l’affaire Perruche. Avec les intersexes, c’est un peu la même chose qui pourrait se passer... Si on veut arrêter efficacement les opérations, il faut taper au portefeuille.
+                </p>
+                <h3>
+                    Que faut-il faire pour que la loi soit appliquée?
+                </h3>
+                <p>
+                    Il faut qu’il y ait des juges qui l’appliquent.<br>
+                    Une fois qu’on aura dit, ce sont des opérations illicites, qui engage la responsabilité pénale des médecins, cela changera. Surtout que techniquement il s’agit de mutilation sur des mineurs, autrement d’une des  infractions pénales les plus graves, qui implique de passer devant une cour d’assise, c’est donc assez lourd en terme symbolique pour le médecin.<br>
+                    Un ou deux traumatismes collectifs chez les médecins peuvent changer les mentalités, sans forcément convaincre l’ancienne génération.
+                </p>
+                <h3>
+                    La binarité des sexes, est une question sensible, et une conception de la société qu’on nous enseigne dans notre enfance. Est-ce pour cela qu’un loi ne changera pas les façons d’agir ?
+                </h3>
+                <p>
+                    On ne peut pas voter de nouvelle loi, je pense, dans le contexte politique actuel, parce que comme vous le dites, on est très ancré dans la binarité donc ça peut pas marcher. Hier j’étais avec des sénatrices, et je les interrogeais sur leur marge de manoeuvre, et elles elles me disaient que même si aujourd’hui elle présentaient un texte sur les mutilations au Sénat, il ne passerait sans doute pas aux affaires sociales, il serait retoqué parce que les collègues des affaires sociales sont en grande partie des médecins formés avec des anciens schémas et donc vont dire que c’est une pathologie, qu’il faut soigner, ça ne changerait rien. En revanche, si il y avait une décision de justice, l’issue du vote serait tout autre, on pourrait faire passer la loi plus facilement. Donc il y a vraiment une collaboration à mener je pense entre le pouvoir législatif et le pouvoir judiciaire.
+                </p>
+                <h3>
+                    Et cela passerait donc par l’attaque en justice d’un médecin qui aurait opéré à la naissance sur un enfant ?
+                </h3>
+                <p>
+                    Pour l’instant, il y a eu des poursuites en Allemagne, vous avez dû voir, mais les médecins ont été condamnés sur le terrain de l’obligation d’information, ce qui est un terrain intéressant, mais qui n’est pas à mon avis le plus pertinent. Ce qu’il faudrait c’est travailler sur la question de la nécessité médicale, en montrant que les actes d’assignation sexuée ne répondent pas à la nécessité médicale. Je pense que c’est une condamnation qui est plus définitive. Il n’y a pas d’autre remède possible pour éviter la condamnation ; alors que si on se place sur l’obligation d’information, les opérations peuvent continuer pourvu qu’on informe mieux  les parents. En se plaçant sur le terrain de la nécessité médicale, l’ensemble des opérations seraient illicites, alors qu’avec l’obligation d’information c’est du cas par cas : il faut regarder si dans un cas donné l’information a été correctement délivrée aux parents.
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(3);">Information des parents</h1>
+            <div class="subint">
+                <h3>
+                    On retrouve parfois l’idée que des médecins trouvent des raisons médicales aux opérations précoces. Quelles sont les obligations de la loi par rapport à l’information des parents à la naissance de leur enfant ?
+                </h3>
+                <p>
+                    Je ne dirais pas qu’il font semblant d’invoquer ces raisons, qu’ils n’y croient pas et qu’ils donnent ces raisons pour continuer à réaliser ces actes. Je crois que les médecins sont convaincus du bienfait de ce qu’ils font, ils sont convaincus que c’est pour le bien de l’enfant, mais il y a beaucoup de biais dans leur raisonnement et ces biens conduisent les médecins à ne pas donner une information objective aux parents. À partir du moment où on a fait une annonce négative à la naissance en disant, « bah il y a un problème sur votre enfant », ou « il y a une ambiguïté ». Du coup, le parent est inquiet, on dit « il y a un problème », « on peut pas vous dire si c’est un garçon ou une fille ». Or la question du sexe est celle qu’on pose en premier à tous les parents, donc par conséquent, les parents sont dans une grande angoisse, et le médecin leur dit, « j’ai une solution, on va opérer ».
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(4);">Utilisation de la possibilité d'absence de sexe sur l'état civil pendant deux ans</h1>
+            <div class="subint">
+                <h3>
+                    Il est possible de ne pas écrire de sexe sur l’état civil pendant deux ans, ou dire que le sexe est indéterminé, ce qui peut permettre aux médecins de mieux définir le sexe ou d’attendre que les parents évoluent dans leur décision. Est ce que des médecins utilisent ce temps ?
+                </h3>
+                <p>
+                    Il y a d’après l’INSEE cinquante personnes à peu près qui sont dans cette situation là. Via le RNIPP (Répertoire national d’identification des personnes physiques), l’INSEE dispose d’une base de données. Quand je les ai interrogés, ils m’ont dit qu’ils avaient une troisième case, dénommée « i ». “i” pour indéterminé et non pas pour intersexe.
+Environ 50 personnes. Ça veut dire que les médecins jouent le jeu, et j’ai interrogé des officiers d’état civil à Paris, Rennes, et peut-être Marseille, et il y avait aussi des hypothèses : à Paris, ils avaient eu trois cas sur les cinq dernières années, d’enfants où ils n’avaient rien inscrit, et à Rennes, ils avaient 3 cas mais ils avaient réussi à inscrire dans les trois jours, du coup ce n’étaient pas des cas qui auraient pu ressortir dans le RNIPP où ils n’enregistrent que les cas où il n’y a pas eu d’inscription des sexes masculin et féminin. D’ailleurs, comme la loi vient d’augmenter le délai de déclaration des naissances  à 5 jours, je pense que ça va réduire encore le nombre de cas puisque la plupart des caryotypes peuvent être faits dans les 48 heures. Or, les hypothèses dans lesquelles n’arrivent pas à inscrire un sexe dans les trois jour, c’est parce qu’il y a un problème d’organisation dans le service, accouchement le vendredi, le médecin est pas de garde, voilà. Donc si notre droit  reste dans cette logique binaire, il est possible qu’on ait de moins en moins de cas identifiés « I » au RNIPP du fait de l’allongement du délai de déclaration.
+Après, ces cas existent, et la question que je me suis posé dans mes recherches  c’est : « Est-ce que c’est licite de ne rien inscrire ou d’inscrire “indéterminé” ? », et je crois pas que ce soit licite, car c’est prévu par une circulaire. Or, cette question ne  relève de la compétence du pouvoir réglementaire car d’après l’article 34 de la Constitution, les questions d’état des personnes doivent être traités par le législateur. En plus s’agissant d’absence de mention du sexe, le texte dit quand même qu’il faut inscrire un sexe, et même si on admettait que c’est pour pallier à une carence du législateur, qui est une hypothèse dans laquelle le pouvoir réglementaire peut récupérer une compétence pour protéger les droits fondamentaux, seulement dans ce cas là, il faudrait encore prouver que ça permet de protéger les droits fondamentaux de l’enfant. Or, je ne suis pas sûr que le classer dans « i »  permette de protéger ses droits fondamentaux, tout comme je ne suis pas sûr que ne rien inscrire protège ses droits fondamentaux. En effet, toutes ces mesures ne concernent que lui et donc ça génère des stigmatisations par rapport aux autres individus clasés “M” ou “F”. Si on veut protéger efficacement les droits fondamentaux il faut rendre la mention facultative pour tout le monde, voir la supprimer mais ça je ne suis pas sûr qu’on soit obligés de le faire, en revanche la rendre facultative pour tout le monde, ça je crois qu’on est obligé...
+                </p>
+                <h3>
+                    
+                </h3>
+                <p>
+                    
+                </p>
+                <h3>
+                    
+                </h3>
+                <p>
+                    
+                </p>
+                <h3>
+                    
+                </h3>
+                <p>
+                    
+                </p>
+                <h3>
+                    
+                </h3>
+                <p>
+                    
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(5);">Suppression du sexe à l'état civil et discrimination positive</h1>
+            <div class="subint">
+                <h3>
+                    Dans un de vos articles vous parlez de supprimer le sexe à l’état civil, vous expliquez que ce serait un choix qu’on impose à la majorité. Avez vous rencontré des personnes contre l’absence de sexe à l’état civil ?
+                </h3>
+                <p>
+                    J’en ai rencontré dans mon entourage, j’ai la chance de venir de milieu catholique et donc de fréquenter des personnes, des gens qui ont vraiment des opinions très différentes et c’est vrai que dans toutes mes recherches, j’essaie toujours de trouver un consensus, une solution médiane, qui satisfasse tout le monde. Et je pense que ces personnes catholiques seraient vent debout et que ça alimenterait cette discussion très mal engagée sur la théorie du genre avec des incompréhensions des deux côtés, des catholiques qui sont persuadés qu’on veut complètement déconnecter le sexe biologique du sexe psychosociale, et puis des gens qui adhèrent à ces idées du genre mais qui sont conscients que la biologie a son importance et donc ils ne se comprennent pas. Je pense qu’il faut faire attention à expliquer à la majorité que non, on ne va pas lui enlever ses droits, qu’elle ne va pas en perdre, qu’on est conscient que son appartenance à la catégorie masculine ou féminine a son importance. D’ailleurs, l’état civil ne sert pas qu’à identifier les gens, il y a une dimension symbolique sur notre acte de naissance, il y a la profession de vos parents par exemple. Il y a plein de mentions qui n’ont pas que pour but d’identifier les gens. Il y a une fonction symbolique qu’il ne faut pas nier dans les actes d’état civil, et je pense que si on supprimait le masculin et le féminin il y a des gens qui perdraient cette fonction symbolique-là dans l’acte et pour eux c’est très important car ils se définissent d’abord comme homme ou femme.
+                </p>
+                <h3>
+                    Qu’est ce qu’on gagne légalement à être un homme plutôt qu’une femme, ou une femme plutôt qu’un homme ?
+                </h3>
+                <p>
+                    Petit précision, du fait de mes compétences, je ne vous répondrai à votre question sur le terrain des conséquences sociales non juridiques. Je m’intéresse seulement aux conséquences juridiques, qui dépendent du sexe. Donc, pour le droit, il y a des règles qui visent à instaurer une altérité entre deux individus, c’était le cas avant pour le mariage mais c’est encore le cas pour la procréation médicalement assistée. Il faut votre sexe non pas juste dans un rapport de vous avec l’État, mais dans un rapport de vous avec l’autre. Vous avez le droit à l’assistance médicale à la procréation assistée si vous êtes de tel sexe. De même, si vous êtes de tel sexe, vous allez dans telle catégorie des prisons, et pas dans telle autre, ou vous allez être fouillé par telle personne et pas telle autre personne. C’est des textes dans le code pénal. Et puis il y a des règles de séparation dans le sport et ensuite des règles d’une autre nature qui visent à assurer une égalité réelle entre les individus, donc les règles de parité ou de discrimination positive. Donc là être par exemple femme va pouvoir présenter un avantage, si vous voulez une place dans un conseil d’administration. Là peut être ça pourra présenter un avantage à cet égard  car il y aura une obligation d’assurer un certain nombre de places de femmes dans les conseils d’administration. Donc il y a encore quelques règles de droits, peut être une dizaine, qui dépendent  de la mention du sexe.
+                </p>
+                <h3>
+                     Si on ne considère plus le sexe dans l’état civil et en entreprise, on n’aura plus de moyen d’obliger les entreprises, les gouvernements à être paritaire ?
+                </h3>
+                <p>
+                    Non pas forcément. Même si on supprimait la mention du sexe de l’acte d’état civil de naissance on pourrait trouver d’autres moyens. L’état civil en effet c’est un registre qui est conservé par un officier ministériel et il y a plusieurs types de registres. Pour la mention du sexe c’est registre de l’acte de naissance. Or on peut tout à fait considérer qu’il y ait un registre autonome juste pour la mention du sexe, et que quand on a besoin dans un cas particulier on aille demander un récépissé à l’officier d’état civil. On a pas besoin de faire de la mention du sexe un élément essentiel qui soit présent sur l’acte de naissance et qui du coup soit reproduit sur tous les documents d’identité : le passeport, la carte nationale d’identité...
+                </p>
+                <h3>
+                    Est-ce qu’on dirait qu’un enfant né intersexe est neutre ou est-ce qu’on choisirait un sexe plus tard ?
+                </h3>
+                <p>
+                    Tout dépend de la conception du sexe que vous allez retenir, si vous retenez que la dimension biologique a son rôle à jouer, alors vous pouvez considérer que vous pouvez faire l’assignation sexuée dès la naissance. Si vous retenez une acception purement psycho-sociale du sexe et que vous décidez d’ouvrir une troisième case, je ne suis pas certain qu’il faille l’ouvrir dès le plus jeune âge parce que comme c’est une catégorie qui est tout de même un peu discriminée, c’est embêtant de placer un enfant dans une catégorie minoritaire sans son consentement. Là je serais plutôt d’avis d’attendre un certain âge, que l’enfant ait pleinement conscience des conséquences du choix de cette identité sexuée. Si vous êtes dans une conception qui est totalement psychosociale du sexe, où la biologie ne joue aucun rôle, vous devez nécessairement attendre un âge où l’enfant a tout de même construit son identité sexuée : 4,5,7 ans. Mes filles ont hésité un moment, mais maintenant, l’une a trois ans, l’autre a cinq ans, si je leur dis un jour qu’elles sont un garçon, elle me dira « tu me dis n’importe quoi » ou « c’est une blague ». Mais l'aîné jusqu’à trois ans, trois ans et demi pouvait facilement me dire qu’elle était un garçon.
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(6);">Protection de l'enfant</h1>
+            <div class="subint">
+                <h3>
+                    Est-ce que c’est différent si les parents ou l’enfant prend l’initiative de l’opération ?
+                </h3>
+                <p>
+                    Aujourd’hui on est dans une conception où l’enfant est entre les mains de ses parents, et ce sont ses parents qui décident pour lui. Donc, on n’a pas reconnu de droit de veto de l’enfant sur des décisions qui concerneraient son intimité même. Ce droit de veto, qui a trait à l’autonomie, appartient pourtant à ceux qu’on appelle les majeurs protégés, tels ces gens devenus fous et qui sont placés sous un régime de protection judiciaire : eux sont les seuls à pouvoir décider d’opérations plus graves sur leurs corps.
+De même pour les mineurs, les actes les plus graves qui concernent l’argent, le patrimoine ne peuvent pas être décidés par les représentants légaux, il faut la plupart du temps l’accord du juge. Mais là en revanche pour la personne même de l’enfant, son corps, la protection de son autonomie n’est pas suffisante à mon avis dans le droit français, et c’est ce que j’expliquais dans un article de 2013 où j’indiquais qu’il faudrait reconnaître un droit de veto à l’enfant.
+                </p>
+                <h3>
+                    On considère que la personne de l’enfant est moins importante que son patrimoine ou son argent ?
+                </h3>
+                <p>
+                    Je sais pas si il y a une hiérarchie consciente mais c’est juste qu’historiquement, quand on a réglementé dans le code civil de 1804, les mineurs et les majeurs protégés — on parlait à l’époque des “interdits” — ça s’est fait au travers du patrimoine car on était soucieux de la préservation du patrimoine familial. Le soucis de la personne est arrivé très tardivement. Le doyen Carbonnier, qui était un grand universitaire et qui était aussi juriste a commencé à insuffler ça dans les réformes du code civil qu’il a pu mener dans les années 70, mais tout n’est pas passé, et depuis lors on avance progressivement dans ce sens là. Mais on n’est pas encore parvenu à une égalité parfaite entre la qualité de la protection reconnue au patrimoine des mineurs, et la qualité de la protection reconnue à sa personne.
+                </p>
+                <h3>
+                    
+                </h3>
+                <p>
+                    
+                </p>
+                <h3>
+                    
+                </h3>
+                <p>
+                    
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(7);">Information de l'enfant</h1>
+            <div class="subint">
+                <h3>
+                    Théoriquement, l’enfant est sensé être informé des opérations ?
+                </h3>
+                <p>
+                    Quand il est en mesure de s’exprimer il est effectivement prévu dans le code de la santé qu’il doit être informé. L’intérêt” de faire l’opération d’assignation sexuée quand l’enfant ne peut pas s’exprimer, c’est qu’on n’a pas besoin de le consulter…
+                </p>
+                <h3>
+                    Mais il est sensé être informé plus tard d’une opération faite avant ?
+                </h3>
+                <p>
+                    C’est une bonne question. Il y a des obligations d’information a posteriori, mais assez peu et je ne suis pas sûr qu’on en reconnaîtrait une ici. Il y a en revanche pour l’enfant un droit d’accès à son dossier médical. 
+                </p>
+                <h3>
+                    Il semble y avoir beaucoup de cas de personnes qui se rendant compte, par exemple, à trente ans qu’elles sont stériles, vont voir leur médecin, et apprennent à ce moment qu’elles ont été opérées.
+                </h3>
+                <p>
+                    Là elle pose la question, donc il y a une obligation d’information. Sinon, de la part du médecin lui même je ne pense pas qu’existerait une telle obligation d’information.
+                </p>
+                <h3>
+                    Est-ce que les parents doivent informer l’enfant ?
+                </h3>
+                <p>
+                    Dans la loi, on a des obligation d’information de la part des médecins, mais de la part des parents à l’enfant, je ne suis pas sûr qu’il y ait des textes, mais peut-être qu’on pourrait se fonder sur des textes qui seraient plus généraux, en n’utilisant pas seulement l’obligation d’information.
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(8);">Opérer pour définir le sexe: une nécéssité?</h1>
+            <div class="subint">
+                <h3>
+                    Pour ce qui est des opérations à la naissance, si on doit imposer un sexe, homme ou garçon, est ce que ce serait possible de ne pas opérer, même si les caractéristiques sexuées de l’enfant correspondent pas exactement à un sexe, et simplement cocher une case?
+                </h3>
+                <p>
+                    C’est tout à fait ça l’idée. C’est de dire, « on nait homme ou femme, et puis on n’a pas besoin d’opérer l’enfant », et je pense qu’aujourd’hui ça s’intègre assez bien dans notre système juridique car depuis la loi de modernisation de la justice du 18 novembre 2016, il me semble que le sexe en France est devenue une notion uniquement psycho-sociale puisque l’article 61-5 du code civil indique que pour changer de sexe il faut prouver un certain nombre d’éléments et dans ces éléments l’article 61-6 entend  empêcher qu’il soit recouru à des composantes biologiques, dans l’article 61-6.
+Je crois qu’aujourd’hui si les règles de changement de sexe disent qu’il faut uniquement prouver des éléments psychosociaux, je crois que cela veut dire que le sexe lui-même est psychosocial. Donc en fait si vous avez un enfant qui nait avec des organes qui ne correspondent pas au stéréotype d’un sexe (masculin ou féminin), on s’en fiche, puisque ce qui compte pour le sexe c’est pas les organes, c’est pas la biologie, c’est comment la personne intersexe se perçoit et comment elle est perçue par les autres, sachant que les autres a priori ne peuvent pas le percevoir uniquement au travers de son corps. Le biologique ne peut pas reprendre sa place par le social.
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(9);">Recherche juridique</h1>
+            <div class="subint">
+                <h3>
+                    Vous dites, « votre stratégie », vous luttez pour les droits des personnes intersexes ?
+                </h3>
+                <p>
+                    Il y a les deux mouvements : il me semble que leurs droits fondamentaux ne sont pas reconnus, et donc après ce qui m’intéresse en tant que chercheur, c’est d’essayer de faire des hypothèses de recherche sur comment est-ce que devraient être les droits fondamentaux de ces personnes. Car ces droits fondamentaux sont des règles très générales, il faut les concrétiser mais le diable est dans les détails.
+Une fois que j’ai posé mon hypothèse de recherche, ce qui m’intéresse c’est de la tester, mais il faut mettre en place une procédure adaptée de vérification, et dans ce cadre-là, il faut trouver la bonne stratégie, pour mettre en place cette procédure de vérification. Donc par exemple, l’affaire du sexe neutre, il nous semblait que le meilleur moyen de vérifier qu’on pouvait encore mieux reconnaître cette personne, c’était de passer par une action en rectification, parce que quand on a introduit la requête, l’action en changement — et non en rectification — impliquait d’être stérilisé, et ça ne correspondait pas à la situation des personnes intersexes, qui étaient naturellement dans cet état là et ne demandaient pas à voir leurs corps modifiés, donc c’est pour ça que je parle de stratégie, car au regard des actions disponibles, c’était seulement l’action en rectification qui permettait de vérifier pleinement l’hypothèse d’une identité non binaire. Si on se faisait stériliser, c’était dans une logique binaire. Et donc on a mis en place cette stratégie. Il semblerait que pour l’instant mon hypothèse de recherche était mauvaise car la cour de cassation a dit que non, non, non : pas de troisième sexe. Il semble néanmoins qu’il y ait un certain nombre de biais dans cette expérimentation puisque la Cour de cassation n’a pas raisonné en utilisant des arguments juridiques, mais a raisonné en utilisant d’autres types d’arguments politiques, sociologiques, et donc du coup on poursuit la vérification devant la cour européenne des droits de l’homme (CEDH), en lui expliquant pourquoi il nous semble que la Cour de cassation n’a pas correctement appliqué les droits fondamentaux, et donc si là la Cour européenne valide cette hypothèse de recherche, très bien, et si on perd, je dirai que je me suis trompé.
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(10);">Cas Gaëtan Schmitt</h1>
+            <div class="subint">
+                <h3>
+                    Est-ce que la CEDH, instance supranationale, au niveau du conseil de l’Europe, considère les lois nationales en rendant son verdict?
+                </h3>
+                <p>
+                    Elle se demande juste, si dans un cas particulier, les droits fondamentaux d’un individu, tels que prévus par la convention de sauvegarde des droits de l’homme et des libertés fondamentales, ont été respectés.
+ 
+Nous, on ne s’est jamais vraiment appuyé sur la loi française dans le cas de Gaëtan, on a toujours dit, d’après l’article 8 de la convention, il faut reconnaître un sexe neutre.
+On s’est fondés sur un droit fondamental, qu’on n’est pas allé chercher dans la Constitution, même s’il existe dans la constitution. On n’a pas voulu mobiliser le Conseil constitutionnel ; on a voulu mobiliser la Cour européenne des droits de l’homme. En effet, les juridictions nationales ne nous ont pas semblé rendre une décision satisfaisantes au regard de l’article 8.
+
+                </p>
+                <h3>
+                    Pourquoi avez vous décidé de pas mobiliser le conseil constitutionnel ?
+
+                </h3>
+                <p>Parce qu’il nous semblait que ce n’était peut-être pas la meilleure instance pour raisonner juridiquement. 
+ 
+Parce que il y a beaucoup d’hommes politiques qui en viennent, il me semble qu’ils n’ont pas forcément une culture des droits fondamentaux qui soit extrêmement développée, et leur grille d’analyse ne repose pas beaucoup sur le critère juridique, il y a quand même le poids politique qui est assez fort. Le conseil constitutionnel dit souvent par exemple que «on n’a pas un pouvoir de même nature que celui du législateur », autrement dit sur les questions sensibles il a tendance à botter en touche, pour éviter de remettre en cause sa légitimité, parce que lui est en France, donc il est plus facilement exposé à une critique, alors que la CEDH est au dessus des états. 
+
+                </p>
+                <h3>Si la CEDH, venait à dire qu’on devrait lui reconnaître un sexe neutre, est-ce que ce cas ferait jurisprudence en France ?
+</h3>
+                <p>Faire jurisprudence, n’est pas un concept qui est connu dans le droit français, il est connu dans les médias, par le biais du soft power américain, mais on a pas de système du précédent ; en France, les juges sont théoriquement libres de faire ce qu’ils souhaitent. Si il y a une solution qui ne leur convient pas, ils peuvent résister et faire autre chose. Cela étant dit, qu’est ce qu’il se passerait si la cour considérait que dans cette affaire, le droit du requérant a été bafoué, puisqu’on l’a privé de la possibilité d’être reconnu tel qu’il est, il pourrait s’ouvrir en France une procédure en révision de l’arrêt de la Cour de cassation, laquelle pourrait alors éventuellement  conduire à une cassation de l’arrêt d’appel qui a refusé d’inscrire la mention d’un sexe neutre et là soit la cour considérerait qu’elle est suffisamment éclairée et statuerait elle-même, soit elle renverrait l’affaire devant de nouveaux juges d’appel pour être rejugée.
+</p>
+                <h3>La cour pourrait statuer sur son propre jugement ?
+</h3>
+                <p>Oui, c’est la demande en révision. Il y a des éléments nouveaux, de faits ou de droits. Là on dirait qu’il semblerait que vous, cour d’appel,  ayez fait une erreur, vous n’avez pas respecté l’article 8, et donc on vous demande de revoir votre décision. Donc le droit que la cour a tenté de fuir, reviendrait devant elle.</p>
+                <h3>Si la cour refuse encore la mention de sexe neutre ?
+</h3>
+                <p> 
+On pourrait à nouveau considérer que le droit du requérant a été violé et à nouveau aller devant la cour européenne. Ce serait une nouvelle violation. Après, c’est une partie de ping-pong entre les dialogues des juges.
+</p>
+                <h3>
+                    Est-ce qu’un jour on reconnaîtra un sexe neutre, pas seulement à M.Schmitt en question, mais à quelqu’un d’autre ?
+                </h3>
+                <p>
+                    Des discussions que j’ai eues avec les sénateurs hier, je crois qu’ils ne sont pas prêts, qu’il leur faut plus d’éléments, peut-être que si d’autres États vont dans ce sens, puisque le droit comparé a son importance, peut-être que si des déclarations politiques se multiplient, peut-être que si la nouvelle assemblée, qui va être élue s’avère beaucoup plus sensible, mais c’est pas du tout certain, puisque les sénatrices me disaient qu’il n’y a pratiquement aucun des nouveaux candidats qui ait fait son coming out. On verra ce que donne la nouvelle assemblée. Mais si la nouvelle assemblée n’est pas particulièrement sensible à ces problématiques là, si il n’y a pas de personne intersexe ou trans dans l’assemblée ça va être compliqué de convaincre les collègues parlementaires. Donc je pense qu’il faudra vraiment travailler sur le niveau judiciaire, pour continuer à sensibiliser l’opinion publique avant qu’une loi arrive, parce que le juge, je le rappelle, ne juge que dans un cas particulier.
+                </p>
+                <h3>
+                    Et si on imagine qu’il y ait plus de femmes à l’assemblée, est-ce que ce pourrait influencer ce genre de questions ?
+                </h3>
+                <p>
+                    Ça peut, mais pas forcément, on se souvient des homosexuels dans la manif pour tous, l’identité sexuée ou l’orientation sexuelle ne sont pas forcément des gages d’une plus grande ouverture parce qu’on intègre plus les contraintes sociales. Les femmes peuvent elles aussi avoir des attitudes machistes.
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(11);">Intérêt des médias</h1>
+            <div class="subint">
+                <h3>
+                    Vous avez parlé à beaucoup de personnes intersexes, travaillé avec des personnes intersexes, comment est-ce que ces personnes là réagissent aux médias qui s’intéressent subitement à leur personne ?
+                </h3>
+                <p>
+                    Elles sont souvent en colère, car les médias ne font pas toujours correctement leur travail, et recherchent souvent le sensationnel. En outre, nombre de médias découvrent le sujet et ne font pas suffisamment de recherches en amont pour le traiter correctement avec les bons mots. Il y a une certaine hostilité, et maintenant une partie des personnes intersexuées commence à penser que ce n’est pas une visibilité d’un jour qui fait changer les choses. Il faut construire des relations de confiance avec quelques journalistes, auxquels on adresse des informations, auxquels on parle. Désormais, au sein de la communauté intersexe il y a presque une sorte de professionnalisation de certains intersexes dans leur rapport avec les médias. Ces intersexes savent désormais comment se comporter avec la presse, ce qu’il fallait dire, quoi en attendre. Il y a aussi le soucis chez les personnes intersexuées médiatiques de faire parler d’autres personnes pour ne pas toujours donner l’impression que ce sont toujours les mêmes qui prennent la parole, mais malheureusement, pour arriver à ce niveau de coming out, il faut avoir acquis une certaine maturité et avoir confiance en soi, et ça, comme ces personnes sont, pour une partie d’entre-elles, très abîmées, elles n’ont pas toutes la force de se manifester. Se manifester, ça veut dire s’exposer à tous ses proches, tous ses amis, les mettre en difficulté, les pointer du doigt, « regardez ce que vous m’avez fait », tout ça est très compliqué.
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(12);">Intersexes militants et leur familles</h1>
+            <div class="subint">
+                <h3>
+                    Dans le cas de Gaëtan Schmitt, il a réclamé le sexe neutre longtemps après le décès de ses parents, est-ce volontaire ? 
+                </h3>
+                <p>
+                    C’est possible. J’ai rencontré Gaëtan en 2012, et ensuite on a continué à échanger, et quand j’ai sorti une interview pour Le Point, où je disait qu’on pouvait demander un sexe neutre, ça l’a interpellé. Pour moi, il m’avait aussi semblé que c’était aussi notre rencontre juridique qui avait contribué à faire émerger cette idée qu’il avait des droits et qu’il allait demander à en bénéficier. Peut-être qu’effectivement, dans le processus psychique, il a été prêt à passer à cette étape parce qu’il y avait un contexte qui le permettait. Pour autant, les sociologues du droit soulignent que souvent les gens se tournent vers la justice lorsqu’ils prennent connaissance de leurs droits et des moyens de les défendre.
+C’est aussi pour ça que j’ai toujours essayé de travailler au service de la communauté, il me donnent leur temps, ils me donnent leur savoir et moi il faut que je leur restitue quelque chose. Du coup, la manière de restituer, c’est de les informer sur leurs droits, ça fait partie un peu du travail de restitution.
+
+                </p>
+                <h3>
+                    Est-ce que c’est difficile pour ces personnes d’expliquer que ce qui leur a été fait a été très douloureux, parfois critiquant de ce fait leurs parents ?
+                </h3>
+                <p>
+                    Je connais quelques intersexes qui sont rentrés dans des démarches judiciaires, le contact avec les parents est difficile, c’est sûr que ça rajoute un obstacle psychique supplémentaire à l’action en justice.
+	Quand les parents ne reconnaissent pas qu’il y a eu un soucis, tant qu’ils ne rejettent pas la responsabilité sur les médecins, en disant « on m’a mal informé », « j’ai été trompé », c’est plus compliqué. Il faut aussi que les parents acceptent de sortir d’une logique binaire, qu’ils se rendent compte qu’ils ont été trompés. Ce n’est pas forcément le meilleur moyen de déresponsabiliser mais je pense  qu’il faut que le parent fasse ce chemin là. Si le parent n’est pas prêt à faire ce chemin là, c’est très compliqué pour la personne intersexuée elle-même.
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(13);">Communication des associations</h1>
+            <div class="subint">
+                <h3>
+                    Le refus venait surtout  à chaque fois du fait qu’ils avaient l’impression qu’interviewer une personne intersexe, lui poser des questions sur sa vie, et peut-être l’opposer à des interviews d’un juriste, d’un médecin par exemple, c’était une forme de réification. Qu’en pensez vous ?
+                </h3>
+                <p>
+                    Je ne suis pas sûr que ce soit le seul élément. Les personnes intersexuées en ont marre de raconter leur vie tout le temps. Leur vie, elles l’ont déjà raconté quinze mille fois. Pour eux, il suffit que vous alliez prendre leurs témoignages et c’est fait. Elles en ont assez, et en plus elles ne sont pas très nombreuses donc avant, quand je commençais à m’intéresser à ça il n’y avait pas beaucoup de personnes qui s’y intéressaient et peut être que j’avais eu plus de chance dans la formulation de mon mail. Des demandes d’entretien avec des personnes intersexuées j’en vois passer très régulièrement sur une liste de diffusion commune et il y a peu de personnes intersexuées en mesure d’y répondre, elles en ont vraiment assez. Il y a tous ces éléments, le peu de personnes disponibles, leur épuisement, la difficulté des journalistes à bien tourner leur message. Ill y a des éléments plus structurels : avant personne n’en parlait, maintenant qu’on a fait sortir toutes les décisions de justice, qu’on a bougé le Sénat, les défenseurs des droits, que tous les journaux en parlent, les demandes croissent. On a tout un réseau de journalistes, et à chaque fois on les mobilise, on les fait venir. Les médias sont alertés, mais avant il n’y avait pratiquement personne.
+Je pense que vous arrivez un peu tard pour avoir des témoignages de “première main”.
+                </p>
+                <h3>
+                    La première réaction était plutôt : « est-ce que vous vous inscrivez dans une démarche pathologisante ? ». Est-ce que c’est une peur de voir l’intersexuation vue comme une pathologie ?
+                </h3>
+                <p>
+                    C’est un critère de sélection des gens avec qui ils vont parler. Si il y a la moindre erreur de terminologie, ils vont se dire « il n’est pas sérieux, il n’a pas fait le travail suffisant avant de nous écrire, et on ne travaille pas avec des gens pas sérieux ». 
+Ça fait des années que des intersexes ou les personnes qui les soutiennent se font balader par des journalistes avec lesquels ils passent trois heures de leur temps, pour que ces journalistes sortent plus tard un article totalement pathologisant ; pareil pour les étudiants, alors au bout d’un moment, ils ne répondent plus aux demendes d’entretien.
+
+                </p>
+                <h3>
+                    Une seconde réaction était : « votre démarche, de personne dyadique, de s’exprimer sur les intersexes n’est pas légitime »
+                </h3>
+                <p>
+                     
+C’est en lien. Ils n’ont pas besoin de vous. Les grands comités d’éthique, type judiciaire, font davantage avancer leur cause, et je crois qu’ils en sont conscients ; ou les grands colloques avec mille personnes, où la vidéo tourne partout… Ils sont passés à une autre échelle.
+Ils s’intéressent au long terme. 
+ 
+Et puis il y a des problèmes de rémunération. Tout ça c’est du temps. Ces gens sont souvent au chômage ou au RSA. Ils n’ont pas de ressources. Ils préfèrent être dans serein chez eux plutôt que de s’exposer et qu’on leur ramène toujours à leurs problèmes.
+
+                </p>
+                <h3>
+                    En faisant notre recherche, on s’est rendus compte qu’on entendait pas tant les personnes intersexes, pas tant de personnes d’associations parler de l’intersexuation. Pourquoi ?
+                </h3>
+                <p>
+                     
+Il y a plus de personnes qui parlent d’eux que d’intersexes eux-mêmes.
+Les intersexes n’ont pas la même place dans la hiérarchie médiatique que les autres : ils n’ont pas  accès aux supports de publication ou en tout cas pas les mêmes.
+
+                </p>
+                <h3>
+                     
+N’est-ce pas étrange de présenter la cause intersexe, sans parler à des associations ?
+
+                </h3>
+                <p>
+                    Maintenant, il y a des relations de confiance qui ont été établies entre les personnes intersexuées et certains médias tels que Le Monde, Libération ou l’AFP. Il y a quelques journalistes avec lesquels ils travaillent en confiance oui et qui dès lors, quand ils vont traiter ces sujets vont interroger des associations. Mais ces journalistes sont rares.
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(14);">Mobilisation des associations</h1>
+            <div class="subint">
+                <h3>
+                    Est-ce que les droits des intersexes sont plus en retard en France que dans d’autres pays ?
+
+                </h3>
+                <p>
+                     
+Je ne crois pas. On est tous à peu près aussi en retard les uns que les autres. Certains pays ont commencé à faire des beaux discours, mais sur le terrain ça ne change pas grand chose.
+ 
+Mais en revanche, il y a des mobilisations dans certains pays qui sont plus avancées que d’autres. Ça tient à des trucs contingents : il y en a un qui dans ce pays là s’est levé, tout comme un jour on a eu Napoléon. C’est la petite histoire. Vincent Guillot est la personne qui a eu la possibilité de se lever, de parler, et du coup il en a réveillé plein d’autres. Si on n’avait pas eu Vincent Guillot en France, je ne sais pas si je serais là aujourd’hui.
+
+                </p>
+                <h3>
+                     
+Est-ce que identifier le mouvement à une personne facilite sa représentation ?
+
+                </h3>
+                <p>
+                    Peut-être, mais c’est un peu dangereux aussi, puisqu’il y a plein de sensibilités différentes. Il y a des intersexes qui rejettent le terme intersexe et qui acceptent des identités nosographiques.
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(15);">Les intersexes qui veulent "se soigner"</h1>
+            <div class="subint">
+                <h3>
+                     
+Pourquoi refusent-ils le terme « intersexe » ?
+
+                </h3>
+                <p>
+                     
+Parce qu’ils sont homme, qu’ils sont femmes, qu’ils ont une maladie et qu’ils veulent se soigner. Voilà leur discours
+
+                </p>
+                <h3>
+                     
+Donc certaines personnes intersexes estiment qu’ils ont une pathologie ?
+
+                </h3>
+                <p>
+                     
+Bien sûr. Je pense qu’on peut voir ça comme les femmes machistes que j’évoquais toute à l’heure.
+Ces personnes ont intégré les normes sociales binaires et les acceptent ; elles ont construit leur univers social autour d’elles et ne veulent plus en changer.
+
+                </p>
+                <h3>
+                     
+Est-ce que la pathologie c’est de pas être homme ou femme, ou est-ce à cause d’éventuelles répercussions médicales ?
+
+                </h3>
+                <p>
+                     
+Les deux sont mélangés dans le discours médical. On va trouver dans les justifications qui sont avancées pour les actes d’assignation sexuée, parfois des vrais raisons, du type « le canal urinaire est bouché », ou du type type « la perte de sel” . Mais quand on va examiner les autres raisons, on voit que ça n’a rien du tout de thérapeutique. La nécessité de pouvoir aller aux toilettes debout, d’avoir des rapports sexuels pénétrants. On voit pleins de préjugés sociaux, et puis ensuite dans le remède on retrouve à nouveau des biais : « l’enfant a un canal bouché, il faut lui enlever les ovaires ». Il y a un certain nombre de biais dans les analyses qui font que les deux niveaux sont mélangés. Ce que j’essaie de faire, c’est de bien distinguer les deux situations pour dire « quand c’est nécessité vitale, on y va », mais l’assignation sexuée, jamais ; pas sur un mineur qui n’a pas exprimé son avis.
+
+                </p>
+                <h3>
+                     
+Est-ce qu’on stérilise parfois des intersexes par ces opérations précoces ?
+
+                </h3>
+                <p>
+                     
+Tout à fait. Il n’y a plus de crime de castration. Ça rentre dans la violence ayant entraîné une mutilation, au sens de l’article 222-9 du code pénal.
+
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(16);">Lien avec les personnes trans</h1>
+            <div class="subint">
+                <h3>
+                     
+Est-ce que vous voyez un rapprochement entre les personnes transsexuées et intersexuées ?
+
+                </h3>
+                <p>
+                    On peut effectivement les rapprocher, toutes les deux me semblent-il rentrent dans une catégorie que j’avais proposé d’appeler les minorités corporelles, c’est à dire des gens qui ont un corps différent des autres, ou différent de celui qui est attendu. Les deux peuvent souffrir des limites d’un système binaire : puisque tant les personnes intersexuées que les personnes transsexuées peuvent vouloir rejeter un système binaire. Et puis il y a un autre rapprochement qui va se faire, maintenant que le sexe est devenu uniquement psychosocial, les personnes trans qui sont en mesure d’établir que depuis leurs origines, elles se sont senties appartenir au sexe « opposé », vous pouvoir dire, nous aussi on passe par une action en rectification d’état civil donc avant il y avait cette différence des actions, rectification pour les intersexuées  et modification pour les personnes transsexuées. Désormais il est possible que l’on puisse avoir ce rapprochement. Le législateur n’en a pas eu du tout eu conscience quand il a voté la loi de modernisation de la justice mais c’est quelque chose qui me parait envisageable. 
+                </p>
+                <h3>
+                     
+La procédure de changement de sexe est la même pour un intersexué que pour un transsexué ?
+
+                </h3>
+                <p>
+                    J’ai soutenu que non, à savoir que la procédure en changement — qui était avant la loi de modernisation de la justice du XXIe siècle d’origine jurisprudencielle, et depuis elle est législative — était pour les personnes transsexuées tandis que pour  les personnes  intersexées, notre stratégie depuis le début a été d’éviter cette procédure car à l’époque elle était médicalisée, et il fallait être passé par une modification de son apparence physique. Nous ne voulions pas de modification de l’apparence : « on est né comme ça, c’est la nature ». L’argumentaire était de dire, on passe pas une procédure en rectification. Il y avait quelques jurisprudences qu’on pouvait trouver dans ce sens, pas d’arrêts de la cassation, seulement des décisions de juge du fond, qui allait dans ce sens là.
+                </p>
+            </div>
+            <h1><img src="toggle-down.png" onclick="subint(17);">Lien avec l'excision</h1>
+            <div class="subint">
+                <h3>
+                    Finalement, l’excision rentre dans la même catégorie que ces opérations précoces/mutilations ?
+                </h3>
+                <p>
+                    Oui, on reste sur des mutilations génitales. Enfin si on admet qu’il n’y a pas de but thérapeutique. Il y a plein de personnes qui ne vont pas être d’accord avec moi sur le fait que techniquement, on peut considérer ça comme des mutilations. Mais je crois qu’en droit cette opinion est largement défendable.
+                </p>
+                <h3>En ce moment, il y a un mouvement contre l’excision, est-ce qu’on lutte plus contre l’excision que contre les opérations précoces sur des personnes intersexes ?</h3>
+                <p>Bien sûr, parce qu’il y a des raisons culturelles qui font qu’on n’admet pas l’excision, en revanche ça ne nous pose pas trop de problème à admettre ces pratiques là sur les intersexes.</p>
+            </div>
+        </div>
+</div>
+    
+    <footer>
+        <a href="mentions.html">Plus d'informations...</a>
+    </footer>
+</body>
+</html>
